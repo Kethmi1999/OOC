@@ -1,53 +1,19 @@
-//User class
-
 #include <iostream>
+#include "User.h"
 
-class User{
-	
-	private:
-		
-		int userId;
-		std ::char password[20];
-		
-	public:
-		
-		void login();
-		void createUserAccount();
-		void accountUpdate();
-		void viewAccount();
-		void accountDelete();
-		
-};
 
-User::User(){
+void User::login(int UserID, const char Password[])
+{	
 }
-
-User::User(int uID, std ::charpasswd)
-{
-	userId = uID;
-	password = passwd;
+void User::createUserAccount(int UserID, const char Password[])
+{	
 }
-
-void User::login(){
-	
+void User::accountUpdate(int UserID)
+{	
 }
-
-void User::createUserAccount(){
-	
+void User::viewAccount(int UserID)
+{	
 }
-
-void User::accountUpdate(){
-	
+void User::accountDelete()
+{	
 }
-
-void User::viewAccount(){
-	
-}
-
-void User::accountDelete(){
-	
-}
-
-User::~User(){
-	
-};
